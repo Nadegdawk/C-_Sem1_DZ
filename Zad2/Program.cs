@@ -13,8 +13,8 @@ int max = numA;
 if (numB > max)
 {
     max = numB;
-    System.Console.WriteLine($"Первое число {numA} меньше чем второе число {numB}. Max = {max}");
+    System.Console.WriteLine($"Первое число меньше чем второе. Max = {max}");
 }
 else {
-    System.Console.WriteLine($"Первое число {numA} больше чем второе число {numB}. Max = {max}");
+    System.Console.WriteLine($"Первое число больше чем второе. Max = {max}");
 }
