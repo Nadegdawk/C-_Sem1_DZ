@@ -5,7 +5,16 @@
 //           a = -9 b = -3 -> max = -3
 
 Console.Write("Введите первое число: ");
-int a = int.Parse(Console.ReadLine());
-Console.Write("Введите первое число: ");
-int b = int.Parse(Console.ReadLine());
+int numA = int.Parse(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int numB = int.Parse(Console.ReadLine());
 
+int max = numA;
+if (numB > max)
+{
+    max = numB;
+    System.Console.WriteLine($"Первое число {numA} меньше чем второе число {numB}. Max = {max}");
+}
+else {
+    System.Console.WriteLine($"Первое число {numA} больше чем второе число {numB}. Max = {max}");
+}
