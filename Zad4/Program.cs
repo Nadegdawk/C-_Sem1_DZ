@@ -4,6 +4,7 @@
 //              44 5 78 -> 78
 //              22 3 9 -> 22
 
+Console.WriteLine("Максимальное из трех чисел");
 Console.Write("Введите первое число: ");
 int numA = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");

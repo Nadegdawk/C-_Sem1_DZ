@@ -4,6 +4,7 @@
 //          -3 -> нет
 //           7 -> нет
 
+Console.WriteLine("Проверка числа на четность");
 Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 
